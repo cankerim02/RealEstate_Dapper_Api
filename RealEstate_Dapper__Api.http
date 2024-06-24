@@ -1,0 +1,6 @@
+@RealEstate_Dapper_Apii_HostAddress = http://localhost:5090
+
+GET {{RealEstate_Dapper__Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
