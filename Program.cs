@@ -1,6 +1,13 @@
+using RealEstate_Dapper__Api.Models.DapperContext;
+using RealEstate_Dapper__Api.Models.Repositories.CategoryRepository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//Ýlgili Registiration gerçekleþtirdik.
+builder.Services.AddTransient<Context>();
+builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
