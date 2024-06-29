@@ -9,8 +9,8 @@ namespace RealEstate_Dapper__Api.Models.Repositories.CategoryRepository
         void DeleteCategory(int id);
         void UpdateCategory(UpdateCategoryDto categoryDto);
 
-        Task<GetByIdCategoryDto> GetCategory(int id); //Category Idleri getiren method.
 
+        Task<GetByIdCategoryDto> GetCategory(int id); //Category Idleri getiren method.
 
 
         //Task veya Task<T> döndüren yapılar asenkron bir yöntem await işlem kullanılır.
