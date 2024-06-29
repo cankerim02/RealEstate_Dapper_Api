@@ -52,7 +52,7 @@ namespace RealEstate_Dapper__Api.Models.Repositories.CategoryRepository
                 return values.ToList();
             }
         }
-        
+
         public async Task<GetByIdCategoryDto> GetCategory(int id)
         {
             string query = "Select * From Category Where CategoryID=@categoryID";
