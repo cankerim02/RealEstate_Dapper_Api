@@ -12,7 +12,6 @@ namespace RealEstate_Dapper__Api.Models.Repositories.CategoryRepository
         Task<GetByIdCategoryDto> GetCategory(int id); //Category Idleri getiren method.
 
 
-
         //Task veya Task<T> döndüren yapılar asenkron bir yöntem await işlem kullanılır.
         // void yapılarında kullanılmaz.
     }
